@@ -21,7 +21,7 @@ public class HelloController {
         User user = userServiceImp.selectByPrimaryKey(1);
         logger.info("Can access the database!");
         System.out.println("sout -Can access the database!");
-        return "username: " + user.getUserName() + "password: " + user.getPassword();
+        return "username: " + user.getUsername() + "<br//>password: " + user.getPassword();
     }
 
 }

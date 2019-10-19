@@ -12,7 +12,7 @@ public class AppConf {
     @Bean
     public User getUser(){
         User user = new User();
-        user.setUserName("yangcan");
+        user.setUsername("yangcan");
         user.setPassword("123");
         return user;
     }
@@ -21,7 +21,7 @@ public class AppConf {
     public Role getRole(){
         Role role = new Role();
         role.setId(1);
-        role.setRoleId("121331");
+        role.setRoleid("121331");
         role.setDescription("This is your role!");
         return role;
     }

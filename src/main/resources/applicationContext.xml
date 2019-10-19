@@ -7,7 +7,7 @@
     <context:component-scan base-package="com.service,com.dao, com.controller, com.config"/>
     <import resource="spring-mybatis.xml"/>
     <bean id="user1" class="com.entity.User">
-        <property name="userName" value="root"></property>
+        <property name="username" value="root"></property>
         <property name="password" value="root"></property>
     </bean>
     <!--<bean id="user2" class="com.entity.User">-->

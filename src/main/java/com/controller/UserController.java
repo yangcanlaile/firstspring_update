@@ -24,7 +24,7 @@ public class UserController {
     public String Get() {
         String outStr = "";
         for (User user : userList) {
-            outStr += user.getUserName() + ": " + user.getPassword()+"<br//>";
+            outStr += user.getUsername() + ": " + user.getPassword()+"<br//>";
         }
         return outStr;
     }
