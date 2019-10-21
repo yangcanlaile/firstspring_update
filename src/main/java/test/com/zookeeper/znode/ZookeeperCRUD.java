@@ -1,4 +1,4 @@
-package com.zookeeper.znode;
+package test.com.zookeeper.znode;
 
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.KeeperException;

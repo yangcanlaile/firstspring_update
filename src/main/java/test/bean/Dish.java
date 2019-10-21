@@ -1,4 +1,4 @@
-package bean;
+package test.bean;
 
 public class Dish {
     public String name;

@@ -1,6 +1,9 @@
-package com.zookeeper.znode;
+package test.com.zookeeper.znode;
+
 import org.apache.zookeeper.KeeperException;
+
 import java.io.IOException;
+
 public class TestZookeeperCRUD {
 
     public static void main(String[] args) throws KeeperException, InterruptedException, IOException {

@@ -1,13 +1,11 @@
-package thread;
+package test.thread;
 
-import bean.Apple;
-import bean.Dish;
-import tools.Predicate;
+import test.bean.Apple;
+import test.bean.Dish;
+import test.tools.Predicate;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Stream;
 
 public class Test {
 

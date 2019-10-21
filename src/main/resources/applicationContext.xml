@@ -6,6 +6,8 @@
 
     <context:component-scan base-package="com.service,com.dao, com.controller, com.config"/>
     <import resource="spring-mybatis.xml"/>
+    <!-- property属性文件 -->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
     <bean id="user1" class="com.entity.User">
         <property name="username" value="root"></property>
         <property name="password" value="root"></property>
